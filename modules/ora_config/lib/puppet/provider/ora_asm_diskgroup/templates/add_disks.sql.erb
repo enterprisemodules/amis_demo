@@ -1,0 +1,2 @@
+alter diskgroup <%= resource.groupname -%> add disk
+<%= added_disks.collect {|e| "'#{e['path']}' name #{e['diskname']}"}.join(",\n") %>

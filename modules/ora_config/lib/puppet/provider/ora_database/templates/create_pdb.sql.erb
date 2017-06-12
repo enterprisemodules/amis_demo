@@ -1,0 +1,16 @@
+set verify off echo on
+set linesize 80
+
+whenever sqlerror exit failure
+
+<% if file_name_convert -%>
+alter session set pdb_file_name_convert='<%= file_name_convert.flatten.join(',').gsub(',','\', \'') -%>';
+<% end -%>
+
+create pluggable database <%= name -%> admin user <%= pdb_admin_user -%> identified by "<%= pdb_admin_password -%>";
+
+alter pluggable database <%= name -%> open read write;
+
+alter pluggable database <%= name -%> save state;
+
+spool off

@@ -1,0 +1,6 @@
+<%- disks_removed_from_failgroups.keys.each do| fg | -%>
+  alter diskgroup <%= resource.groupname -%>
+  <%- disks_removed_from_failgroups[fg].each do | disk| -%>
+    drop disk  <%= disk['diskname'] %>;
+  <%- end -%>
+<%- end -%>

@@ -1,0 +1,10 @@
+profile::oradb::software::type:                            EE
+
+profile::download_dir:                                     /data/install
+profile::source_dir:                                       puppet:///modules/software
+
+profile::oradb::base:                                      /u01/app/oracle
+profile::oradb::os_user:                                   oracle
+profile::oradb::os_group:                                  oinstall
+profile::oradb::system_password:                           Welcome01!
+profile::oradb::sys_password:                              Welcome01!

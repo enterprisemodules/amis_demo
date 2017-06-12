@@ -1,0 +1,68 @@
+Installs the Oracle Enterprse Manager.
+
+Here is an example on how to use this:
+
+```puppet
+ora_install::installem{ 'em12104':
+  version                     => '12.1.0.4',
+  file                        => 'em12104_linux64',
+  oracle_base_dir             => '/oracle',
+  oracle_home_dir             => '/oracle/product/12.1/em',
+  agent_base_dir              => '/oracle/product/12.1/agent',
+  software_library_dir        => '/oracle/product/12.1/swlib',
+  weblogic_user               => 'weblogic',
+  weblogic_password           => 'Welcome01',
+  database_hostname           => 'emdb.example.com',
+  database_listener_port      => 1521,
+  database_service_sid_name   => 'emrepos.example.com',
+  database_sys_password       => 'Welcome01',
+  sysman_password             => 'Welcome01',
+  agent_registration_password => 'Welcome01',
+  deployment_size             => 'SMALL',
+  user                        => 'oracle',
+  group                       => 'oinstall',
+  download_dir                => '/install',
+  zip_extract                 => true,
+  puppet_download_mnt_point   => '/software',
+  remote_file                 => false,
+  log_output                  => true,
+}
+
+```
+<%- include_attributes [
+  :admin_server_https_port,
+  :agent_base_dir,
+  :agent_port,
+  :agent_registration_password,
+  :bi_publisher_http_port,
+  :bi_publisher_https_port,
+  :database_hostname,
+  :database_listener_port,
+  :database_service_sid_name,
+  :database_sys_password,
+  :deployment_size,
+  :download_dir,
+  :em_central_console_http_port,
+  :em_central_console_https_port,
+  :em_upload_http_port,
+  :em_upload_https_port,
+  :file,
+  :group,
+  :log_output,
+  :managed_server_http_port,
+  :managed_server_https_port,
+  :nodemanager_https_port,
+  :ora_inventory_dir,
+  :oracle_base_dir,
+  :oracle_home_dir,
+  :puppet_download_mnt_point,
+  :remote_file,
+  :software_library_dir,
+  :sysman_password,
+  :temp_dir,
+  :user,
+  :version,
+  :weblogic_password,
+  :weblogic_user,
+  :zip_extract
+]%>

@@ -1,0 +1,4 @@
+SELECT COUNT(*) as ERRORS FROM DBA_ERRORS WHERE
+  OWNER='<%= resource.owner -%>' AND
+  NAME='<%= resource.package_name -%>'
+  AND TYPE LIKE 'PACKAGE%'

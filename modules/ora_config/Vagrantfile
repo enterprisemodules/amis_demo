@@ -1,0 +1,20 @@
+# Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
+VAGRANTFILE_API_VERSION = '2'.freeze
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = 'enterprisemodules/oraasm12'
+  config.ssh.insert_key = false
+  config.vm.hostname = 'dbasmnfs.example.com'
+  config.vm.network :private_network, :ip => '10.10.10.7', :netmask => '255.255.0.0'
+  config.vm.provider :virtualbox do |vb|
+    vb.customize ['modifyvm', :id, '--memory', '4096', '--cpus', '1']
+  end
+
+  Dir.glob('.vendor/*').each do |full_dir|
+    dir = full_dir.split('/').last
+    config.vm.provision :shell, :inline => "rm -rf /etc/puppetlabs/code/environments/production/modules/#{dir}; ln -s /vagrant/.vendor/#{dir} /etc/puppetlabs/code/environments/production/modules/#{dir}"
+  end
+  config.vm.provision :shell, :inline => 'rm -rf /etc/puppetlabs/code/environments/production/modules/ora_config; ln -s /vagrant /etc/puppetlabs/code/environments/production/modules/ora_config'
+  config.vm.provision :shell, :inline => 'puppet ora_settings'
+  config.vm.provision :shell, :inline => '/opt/puppetlabs/puppet/bin/gem install byebug pry --no-ri --no-rdoc'
+end

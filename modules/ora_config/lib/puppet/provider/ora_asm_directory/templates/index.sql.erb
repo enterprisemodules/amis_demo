@@ -1,0 +1,11 @@
+SELECT path FROM (
+   SELECT '+'||gvd.name||'/'||LTRIM(SYS_CONNECT_BY_PATH(gva.name, '/'), '/') AS path
+        , CONNECT_BY_ISLEAF AS leaf
+        , gva.alias_directory
+     FROM gv$asm_alias gva
+        , gv$asm_diskgroup gvd
+    WHERE gva.group_number = gvd.group_number
+    START WITH gva.parent_index = (select min(parent_index) from v$asm_alias)
+  CONNECT BY gva.parent_index = PRIOR gva.reference_index
+    ORDER SIBLINGS BY gva.alias_index)
+ WHERE (leaf = 0 OR alias_directory = 'Y')

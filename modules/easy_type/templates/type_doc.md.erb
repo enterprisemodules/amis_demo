@@ -1,0 +1,24 @@
+---
+title: <%= name.to_s.gsub('_',' ') %>
+keywords: documentation
+layout: documentation
+sidebar: <%= module_name -%>_sidebar
+toc: false
+---
+## Overview
+
+<%= doc %>
+
+## Attributes
+
+<%= attribute_summary %>
+
+<% all_attribute_classes.each do | attribute | -%>
+
+### <%= attribute.name %><a name='<%="#{name}_#{attribute.name}"-%>'>
+
+<%= attribute.doc -%>
+
+<%= back_to( name) %>
+
+<% end -%>

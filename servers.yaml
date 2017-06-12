@@ -1,0 +1,17 @@
+---
+ml-db112:
+  public_ip:        '192.168.253.112'
+  cpucount:         1
+  type:             masterless
+  virtualboxorafix: enable
+ml-db121:
+  public_ip:        '192.168.253.121'
+  cpucount:         1
+  type:             masterless
+  virtualboxorafix: enable
+ml-db122:
+  public_ip:        '192.168.253.122'
+  cpucount:         3
+  box:              enterprisemodules/amis_demo
+  type:             masterless
+  virtualboxorafix: enable

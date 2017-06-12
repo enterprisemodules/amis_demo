@@ -1,0 +1,42 @@
+col encryptionalg form a20
+select t.tablespace_name as TABLESPACE_NAME,
+       t.logging as LOGGING,
+       t.extent_management as EXTENT_MAN,
+       t.segment_space_management as SEGMEN,
+       t.bigfile as BIG,
+       f.file_name as FILE_NAME,
+       t.contents as CONTENTS,
+       to_char(f.increment_by, '9999999999999999999') as INCREMENT_BY,
+       to_char(t.block_size, '9999999999999999999') as BLOCK_SIZE,
+       f.autoextensible as AUT,
+       to_char(f.bytes, '9999999999999999999') as BYTES,
+       to_char(f.maxbytes, '9999999999999999999') as MAX_SIZE,
+       e.encryptionalg
+from   dba_tablespaces t,
+       dba_data_files f,
+       v$tablespace vt,
+       v$encrypted_tablespaces e
+where  t.tablespace_name = f.tablespace_name
+  and  vt.name = t.tablespace_name
+  and  vt.ts# = e.ts#(+)
+union all
+select t.tablespace_name as TABLESPACE_NAME,
+       t.logging as LOGGING,
+       t.extent_management as EXTENT_MAN,
+       t.segment_space_management as SEGMEN,
+       t.bigfile as BIG,
+       f.file_name as FILE_NAME,
+       t.contents as CONTENTS,
+       to_char(f.increment_by, '9999999999999999999') as INCREMENT_BY,
+       to_char(t.block_size, '9999999999999999999') as BLOCK_SIZE,
+       f.autoextensible as AUT,
+       to_char(f.bytes, '9999999999999999999') as BYTES,
+       to_char(f.maxbytes, '9999999999999999999') as MAX_SIZE,
+       e.encryptionalg
+from   dba_tablespaces t,
+       dba_temp_files f,
+       v$tablespace vt,
+       v$encrypted_tablespaces e
+where  t.tablespace_name = f.tablespace_name
+  and  vt.name = f.tablespace_name
+  and  vt.ts# = e.ts#(+)

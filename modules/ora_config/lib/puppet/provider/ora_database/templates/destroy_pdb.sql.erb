@@ -1,0 +1,6 @@
+
+whenever sqlerror continue
+alter pluggable database <%= name -%> close;
+
+whenever sqlerror exit failure
+drop pluggable database <%= name -%> including datafiles;

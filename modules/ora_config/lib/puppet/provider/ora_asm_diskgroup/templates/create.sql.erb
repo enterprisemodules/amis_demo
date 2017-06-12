@@ -1,0 +1,7 @@
+create diskgroup <%= groupname -%>
+  <%= redundancy_type -%> redundancy disk
+    <%= disks.collect {|e| "'#{e['path']}' name #{e['diskname']}"}.join(",\n") %>
+  <% if attributes.any? -%>
+  ATTRIBUTE
+    <%= attributes.join(',') %>
+  <% end -%>

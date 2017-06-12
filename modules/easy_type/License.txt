@@ -1,0 +1,336 @@
+Enterprise Software License Agreement
+This license agreement ("the Agreement") governs the terms and conditions 
+under which the Easy_Type software ("the Software") is licensed 
+by Enterprise Modules BV of the Netherlands, Chamber of Commerce TBD 
+("Enterprise Modules") to NAME_LICENSEE, LICENSEE DETAILS ("Licensee").
+Nothing in this Agreement shall affect any rights or obligations of Licensee (or 
+others) with respect to the community edition of the Software.
+Article 1.	Grant of license
+1.1	Enterprise Modules hereby grants to Licensee the right to use the 
+Software for its internal business purposes. This right includes the right 
+to copy, install and use an unlimited number of copies of the Software on 
+an unlimited number of computers within the organization of Licensee.
+1.2	The license granted in the previous paragraph is limited to managing the 
+number of nodes for which Licensee has paid the applicable fee and 
+whose node names have been registered with Enterprise Modules 
+("Entitled Nodes"). 
+1.3	Entitled Nodes may be added at any time. An Entitled Node can be 
+cancelled by the end of a twelve-month period from the date the Entitled 
+Node was added ("the Entitled Node Term"). Unless an Entitled Node is 
+cancelled at least one month prior to the end of the Entitled Node Term, 
+the Entitled Node Term shall be extended with additional twelve-month 
+terms each time.
+1.4	The license includes the right to modify the Software as desired by 
+Licensee. However, Enterprise Modules is under no obligation to provide 
+any support regarding aspects of the Software modified by Licensee.
+Article 2.	License limitations
+2.1	All right, title and interest to the Software, the accompanying 
+documentation and all modifications and extensions thereto rest and 
+remain with Enterprise Modules. Licensee only has the rights and 
+permissions explicitly granted by this agreement or granted in writing 
+otherwise. Licensee shall not use, copy, distribute or publish the software 
+in any other manner.
+2.2	In particular, Licensee shall not:
+a)	provide copies of the Software to third parties, including to entities 
+controlling, controlled by or under common control with Licensee;
+b)	sublicense the Software or otherwise make available the Software to 
+such third parties, including by rental, Software-as-a-Service models or 
+otherwise;
+c)	remove indications of Enterprise Modules as copyright holder of the 
+Software or to remove or render illegible any part thereof.
+2.3	The Software comprises third-party open source software. The 
+respective third-party rights holders grant Licensee the rights indicated 
+in the applicable open source licenses. These licenses can be found in the 
+documentation. The Agreement does not apply to this open source 
+software, and nothing in this agreement shall be construed as a 
+limitation of any right granted under an open source license.
+2.4	Licensee shall only provide access to the source code of the Software to 
+employees of Licensee and independent contractors performing work for 
+Licensee if such access is necessary for the use of the Software and only if 
+such employees and contractors have agreed in writing to be bound by 
+terms that are at least as protective of Enterprise Modules's rights as the 
+Agreement.
+Article 3.	Delivery of software
+3.1	Enterprise Modules shall make available for download to Licensee a 
+master copy of the Software.
+3.2	Enterprise Modules shall make available on its website for Licensee an 
+electronic collection of support documents ("Documentation").
+3.3	From time to time Enterprise Modules may make available updates to 
+the Software and/or Documentation. Enterprise Modules will use its best 
+efforts to notify Licensee about such availability. Licensee is itself 
+responsible for downloading and installing these updates. 
+Article 4.	Support
+4.1	For the duration of the Agreement Enterprise Modules will provide 
+Licensee with a reasonable level of second-level support regarding use of 
+the Software. Licensee is itself responsible for first-level support towards 
+end users.
+4.2	Licensee shall appoint a Support Manager within its organization. This 
+Support Manager shall be the sole point of contact with Enterprise 
+Modules for support issues.
+4.3	Support is available between 09:00-17:00 CET on working days, that is 
+the days excluding Saturday and Sunday and Dutch national holidays.
+4.4	Enterprise Modules may refuse to provide support for issues addressed 
+in updates not installed by Licensee, or charge a surcharge for any extra 
+work in such situations.
+4.5	Upon request the parties can discuss the contents, pricing and other 
+terms of more specific support terms to be provided in a separate Service 
+Level Agreement (SLA). If and when such an SLA is concluded, its 
+provisions will prevail over any conflicting provisions in this document.
+Article 5.	Representations and warranties
+5.1	Enterprise Modules represents and warrants the following:
+?	That it is a company in good standing with the authority to grant the 
+rights hereunder;
+?	That the Software operates substantially as described in the 
+Documentation;
+?	That the Software has been developed in a workmanlike manner, and in 
+conformity with generally prevailing industry standards;
+?	That the Software contains no open source software except as listed in 
+the Documentation;
+?	That the Software does not infringe on any copyright of any third party;
+?	That the Software contains no viruses, backdoors or malicious routines.
+5.2	To the fullest extent permitted by law, and unless explicitly indicated 
+otherwise in the paragraph above, Enterprise Modules expressly 
+disclaims all conditions, representations or warranties, express or 
+implied, including without limitation any implied warranties of 
+merchantability, fitness for a particular purpose, and non-infringement 
+of third party rights regarding the Software.
+5.3	Licensee acknowledges that it is solely responsible for compliance with 
+all applicable laws and regulations, including without limitation all 
+customs, export and import laws and regulations of the European Union 
+and any other country in which Licensee does business.
+Article 6.	Indemnification
+6.1	Enterprise Modules shall defend, indemnify and hold harmless Licensee 
+against any liability arising from any claim by any third party against 
+Licensee that the Software infringes on its copyright or violates its 
+license under such copyright ("a Claim") but only under the provisions of 
+this article.
+6.2	Licensee shall promptly notify Enterprise Modules in writing of any 
+Claims it receives, and enable Enterprise Modules (at Enterprise 
+Modules's expense) to control the defense or settlement of the Claim on 
+behalf of Licensee, and provide Enterprise Modules immediately with all 
+support which Enterprise Modules may reasonably require in the 
+defense or settlement of the Claim. Both parties carry their own out-of-
+pocket costs in connection with these activities.
+6.3	To address the Claim, Enterprise Modules may, at its discretion,
+a)	procure for Licensee the right to continue using the Software; or
+b)	provide Licensee with a modification or update to the Software that 
+avoids or settles the Claim; or
+c)	if the above is not possible under reasonable terms and conditions after 
+best negotiation and technical efforts by Enterprise Modules, terminate 
+the Agreement.
+6.4	Any costs or license fees associated with options a or b above shall be 
+fully borne by Enterprise Modules.
+6.5	Enterprise Modules shall reimburse Licensee in respect of any final 
+award of damages by a court of competent jurisdiction holding that a 
+Claim is valid, or in respect of any monies to be paid under a settlement 
+agreement regarding a Claim, however only if the Claim is directly and 
+solely attributable to the Software. 
+6.6	No liability or obligation to indemnify shall exist for any modifications or 
+changes to the Software made by Licensee or for Licensee by any third 
+party without the prior written approval of Enterprise Modules or for 
+any Claims that would have been resolved or avoided but for Licensee's 
+refusal of a modification or update provided by Enterprise Modules.
+6.7	Enterprise Modules's entire liability and obligation to reimburse under 
+this article shall be subject to the limitation of article 9.
+6.8	In all other aspects, Licensee shall release, defend, indemnify and hold 
+harmless Enterprise Modules from and against any and all claims, 
+damages and liability arising in connection with the Software, including 
+from claims, damages or liability from customers of Licensee.
+Article 7.	Confidentiality provisions
+7.1	A party that receives information marked as confidential or under 
+circumstances making it clear the information was intended to be 
+confidential ("Confidential Information") from the other party shall 
+protect the confidentiality of such Confidential Information by a 
+reasonable degree of care against unauthorized disclosure for the term of 
+the Agreement and a period of three years thereafter. 
+7.2	Each party warrants that any employees that have a need to know 
+Confidential Information are bound to terms and conditions related to 
+the use and disclosure of Confidential Information which are at least as 
+stringent as provided in the Agreement.
+7.3	Confidential Information may be disclosed in response to a valid court or 
+other governmental order, provided (if permitted by such order) the 
+disclosing party is notified as soon as possible after receipt of the order 
+and given an opportunity to seek legal redress against such disclosure.
+7.4	Information which would otherwise be Confidential Information shall 
+not be deemed Confidential Information to the extent that the receiving 
+party proves by written records that said information:
+a)	is or has become publicly available without any wrongdoing by the 
+receiving party;
+b)	is known and on record at the receiving party prior to disclosure by the 
+disclosing party;
+c)	is lawfully obtained by the receiving party from a third party who is not 
+bound by similar confidentiality obligations; or
+d)	is developed by the receiving party completely independently of any 
+such disclosure by the disclosing party.
+7.5	.Upon first request of the disclosing party, the receiving party shall 
+destroy or return to the disclosing party all Confidential Information 
+received in written or other tangible form, including all copies thereof. 
+7.6	The receiving party shall use its best efforts to assist the disclosing party 
+in identifying and preventing any unauthorized use or disclosure of any 
+Confidential Information. Without limitation of the foregoing, the 
+receiving party shall advise the disclosing party immediately in the event 
+the receiving party learns or has reason to believe that any person who 
+has had access to Confidential Information has violated or intends to 
+violate the terms of this Agreement. The receiving party will cooperate 
+with the disclosing party in seeking injunctive or other equitable relief 
+against any such person.
+7.7	The parties acknowledge that disclosure or use of Confidential 
+Information in violation of this Agreement could cause irreparable harm 
+to the disclosing party for which monetary damages may be difficult to 
+ascertain or an inadequate remedy. The parties therefore agree that the 
+disclosing party will have the right, in addition to its other rights and 
+remedies, to seek injunctive relief for any actual or threatened violation 
+of this Agreement.
+Article 8.	Limitation of liability
+8.1	Enterprise Modules shall be liable to Licensee only for damages arising 
+out of its intentional misconduct towards Licensee or materially 
+negligent performance of any of its obligations under the Agreement.
+8.2	Enterprise Modules shall not be liable for any consequential, special, 
+punitive and/or incidental damages, including loss of profits or fines 
+imposed by regulatory bodies, arising out of or in connection with the 
+agreement, even if advised of the possibility of such damages.
+8.3	Any liability of Enterprise Modules for an event shall be limited to the 
+amount actually paid by Licensee to Enterprise Modules in the six 
+months preceding the date the event occurred. 
+8.4	No liability shall exist for damages that have not been reported to 
+Enterprise Modules in writing within two weeks of their occurrence, or 
+for damages where Licensee failed to take appropriate measures to limit 
+such damages.
+8.5	Neither party may bring an action, regardless of form, arising out of or 
+related to the agreement more than one year after the cause of action has 
+arisen or the date of discovery of such cause, whichever is later. 
+However, in no event can an action be brought more than one year after 
+the date of termination of the agreement.
+Article 9.	Force majeure
+9.1	Enterprise Modules shall not be liable for any failure to fulfill any of its 
+obligations under the agreement if that failure is due to force majeure. 
+Force majeure includes without limitation war, riot, fires, floods, 
+epidemics, security bugs in operating system and middleware software 
+parts of the Software, breakthroughs in cryptography and interruption in 
+internet connectivity.
+9.2	If the force majeure lasts for more than thirty consecutive days, either 
+party is entitled to terminate the agreement with immediate effect. No 
+obligation to reimburse any costs, fees or expenses shall exist for either 
+party in case of such termination.
+Article 10.	Export control
+10.1	As the Software contains components implementing 
+cryptography, Licensee hereby agrees to not export, or transfer for the 
+purpose of re-export, any copies of the Software in violation of any 
+European Union, U.S., international or other applicable regulation, treaty, 
+resolution, Executive Order, law, statute or order. 
+10.2	Further, Licensee shall not export and shall not permit the export 
+of any such copies to any prohibited or embargoed country or to any 
+denied, blocked, or designated person or entity as mentioned in any such 
+European Union, U.S., international or other applicable regulation, treaty, 
+resolution, Executive Order, law, statute or order.
+Article 11.	Payment terms
+11.1	In consideration for the license granted under the Agreement, 
+Licensee shall pay to Enterprise Modules a license fee for each Entitled 
+Node at the beginning of its Entitled Node Term.
+11.2	In case Licensee has opted for a premium support package, in 
+consideration for such support Licensee shall pay the associated support 
+fee at the beginning of the Support Term.
+11.3	Enterprise Modules shall invoice electronically for all fees due. 
+Invoices must be paid within 30 days of receipt.
+11.4	In case a payment is not received in time, Licensee shall be in 
+default automatically and will owe legal interest over the outstanding 
+balance, payable on a monthly basis. Furthermore, Licensee shall pay any 
+costs, fees and expenses incurred in connection with the collection of the 
+debt, as provided in Dutch law.
+Article 12.	Compliance and audits
+12.1	The Software contains a module designed to limit operation to 
+Entitled Nodes. This module validates the presence of digital certificates 
+signed by Enterprise Modules for each Entitled Node. Licensee shall not 
+disable or circumvent this module for any reason, nor shall Licensee 
+acquire such certificates except from Enterprise Modules.
+12.2	Once every calendar year Enterprise Modules may have an 
+independent reputable third party auditor audit in confidence Licensee's 
+deployment and use of the Software and Documentation for compliance 
+with this Agreement. 
+12.3	If Licensee's use of the Software or Documentation is found to be 
+greater than contracted for, Licensee will be invoiced for the additional 
+use from the time this additional use started or, if in Enterprise 
+Modules's opinion, such time cannot be easily established, from the 
+starting date of the Agreement. 
+12.4	If the resulting adjustments are greater than five (5) percent 
+compared to what has been paid by Licensee under this Agreement, 
+Licensee will pay the costs associated with such audit in addition to the 
+additional amount to be paid.
+Article 13.	Duration and termination
+13.1	The parties enter into this agreement on the date the Software is 
+first made available to Licensee and remains in force until terminated.
+13.2	In case a party blamefully fails to comply with the material 
+obligations under the Agreement, the other party may terminate the 
+Agreement at any time, but only after the party that failed to comply has 
+not remedied the failure within a reasonable time period after having 
+received a written notice of default that is adequate and as detailed as 
+possible.
+13.3	Either party may terminate this agreement by means of written 
+notice to the other party with effect on the date the last Entitled Node 
+Term expires. Licensee must provide one month's notice; Enterprise 
+Modules must provide six month's notice.
+?	A party may immediately terminate the agreement by written notice to 
+the other party, without the requirement for notice of default or 
+intervention of the Court, in the event of the following:  
+?	if the other party has been granted suspension of payments, whether 
+provisionally or not; 
+?	if a petition for bankruptcy has been filed with respect to the other party 
+and the petition has not been revoked within in seven days;
+?	if the other party files for bankruptcy itself; or 
+?	if the other party's enterprise is dissolved or terminated, except for the 
+purpose of a merger with or absorption by another company.
+Article 14.	Changes to the Agreement
+14.1	Enterprise Modules has the right to adapt or add to the Agreement 
+once every calendar year. Such adapted or additional terms shall be 
+communicated at least six months prior their taking effect. 
+14.2	If Licensee does not wish to accept an adapted or additional term, 
+Licensee must raise its objection to Enterprise Modules within four 
+months after being notified about these terms. Enterprise Modules then 
+may, at its discretion, withdraw the adaptation or addition. If Enterprise 
+Modules does not do so, Licensee has the right to terminate the 
+agreement at the end of the six-month period. Failure to terminate so 
+constitutes acceptance of such terms.
+Article 15.	Choice of law and venue
+15.1	The law of the Netherlands governs the agreement and these 
+terms and conditions.
+15.2	Any disputes arising between Enterprise Modules and Licensee in 
+connection with the agreement will be settled by the competent courts in 
+the Netherlands for the principal place of business of Enterprise 
+Modules.
+15.3	The United Nations Convention on Contracts for the International 
+Sale of Goods does not apply to the Agreement.
+Article 16.	Miscellaneous provisions
+16.1	The Agreement shall not be assigned or otherwise transferred by 
+Licensee without the prior written consent of Enterprise Modules, which 
+shall not be unreasonably withheld. Any such assignment without such 
+consent will be null and void. However, no consent of Licensee is 
+necessary for an assignment or transfer of the Agreement to any 
+company controlling, controlled by or under common control with 
+Enterprise Modules or to any company that succeeds to substantially all 
+of Enterprise Modules's business. This Agreement shall bind and inure to 
+the benefit of the successors and permitted assigns of the parties. 
+16.2	The failure of either party at any time to require performance by 
+the other party of any provision of the agreement shall in no way affect 
+that party's right to enforce such provisions, nor shall the waiver by 
+either party of any breach of any provision of the agreement be taken or 
+held to be a waiver of any further breach of the same provision.
+16.3	Any requirement for a "written" statement can be fulfilled by 
+using a digitized version communicated by electronic means such as 
+facsimile or e-mail, provided the identity of the sender and integrity of 
+such electronic means can be determined with sufficient certainty. 
+16.4	The section headings in this Agreement are for convenience only 
+and shall not be used in construing or interpreting either.
+16.5	The applicability of any general terms and conditions supplied by 
+Licensee is explicitly rejected. Any terms, conditions or exceptions that 
+deviate from this Agreement are binding upon Enterprise Modules only if 
+explicitly confirmed in writing by an authorized officer of Enterprise 
+Modules.
+16.6	In the event that any part of the agreement or these terms and 
+conditions become or are declared to be invalid by any court of 
+competent jurisdiction, such invalidity shall not affect the rest of this 
+agreement. The parties shall in such a case determine one or more 
+replacement provisions that most closely approximate the clause 
+concerned and which is legal under applicable law.
+
+
+

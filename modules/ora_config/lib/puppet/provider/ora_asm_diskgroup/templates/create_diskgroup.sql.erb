@@ -1,0 +1,12 @@
+create diskgroup <%= groupname -%>
+  <%= redundancy_type -%> redundancy
+  <% disks.first.keys.each do | key| -%>
+    failgroup <%= key -%> disk
+    <%= disks.first[key].collect {|e| "'#{e['path']}' name #{e['diskname']}"}.join(",\n") %>
+  <% end -%>
+  ATTRIBUTE
+    <% if au_size -%>
+    'au_size' = '<%= au_size -%>M',
+    <% end -%>
+    'compatible.asm' = '<%= compat_asm -%>',
+    'compatible.rdbms' = '<%= compat_rdbms -%>'

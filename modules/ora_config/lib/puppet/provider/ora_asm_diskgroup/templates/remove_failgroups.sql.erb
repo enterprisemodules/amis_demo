@@ -1,0 +1,4 @@
+<%- force = resource.force == :true ? 'force' : '' -%>
+<%- removed_failgroups.keys.each do | fg| -%>
+  alter diskgroup <%= resource.groupname -%> drop disks in failgroup <%= "#{fg} #{force}" %>
+<%- end -%>

@@ -1,0 +1,5 @@
+select rawtohex(text) as content from dba_source
+  where type = 'TRIGGER'
+  and name   = '<%= resource.trigger_name -%>'
+  and owner  = '<%= resource.owner -%>'
+  order by line

@@ -1,0 +1,4 @@
+<%- disks_added_to_failgroups.keys.each do| fg | -%>
+alter diskgroup <%= resource.groupname -%> add failgroup <%= fg %> disk
+<%= disks_added_to_failgroups[fg].collect {|e| "'#{e['path']}' name #{e['diskname']}"}.join(",\n") -%>;
+<% end -%>

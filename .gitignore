@@ -1,0 +1,7 @@
+/.vagrant
+/software
+.byebug_history
+/.librarian
+/.tmp
+/modules/software
+.DS_Store

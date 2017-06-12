@@ -1,0 +1,27 @@
+source 'https://rubygems.org'
+
+if RUBY_VERSION =~ /1.9/ # assuming you're running Ruby ~1.9
+  Encoding.default_external = Encoding::UTF_8
+  Encoding.default_internal = Encoding::UTF_8
+end
+
+puppetversion = ENV.key?('PUPPET_GEM_VERSION') ? "= #{ENV['PUPPET_GEM_VERSION']}" : ['>= 3.0']
+
+platform :ruby_19, :ruby_20 do
+  gem 'coveralls', :require => false
+  gem 'simplecov', :require => false
+end
+gem 'wwtd'
+gem 'rspec-puppet-utils'
+gem 'hiera-puppet-helper'
+gem 'puppet-lint'
+gem 'puppet', puppetversion
+gem 'rspec-puppet'
+gem 'puppetlabs_spec_helper'
+gem 'puppet-syntax'
+gem 'facter', '>= 1.6.10'
+gem 'ci_reporter_rspec'
+gem 'rubocop', :require => false
+gem 'puppet-blacksmith'
+gem 'fog', '>= 1.25.0'
+gem 'fog-google', '= 0.1.0'

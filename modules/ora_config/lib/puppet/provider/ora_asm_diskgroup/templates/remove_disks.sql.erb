@@ -1,0 +1,3 @@
+<%- force = resource.force == :true ? 'force' : '' -%>
+alter diskgroup <%= resource.groupname -%> drop disk
+  <%= removed_disks.collect {|d| "#{d['diskname']} #{force}"}.join(",\n")  -%>

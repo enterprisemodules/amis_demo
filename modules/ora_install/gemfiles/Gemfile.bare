@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+puppetversion = ENV.key?('PUPPET_GEM_VERSION') ? "= #{ENV['PUPPET_GEM_VERSION']}" : ['>= 3.0']
+
+gem 'puppet-lint'
+gem 'puppet', puppetversion
+gem 'rspec-puppet'
+gem 'puppetlabs_spec_helper'
+gem 'puppet-syntax'
+gem 'ci_reporter_rspec'
+gem 'puppet-blacksmith'
+gem 'json_pure', '2.0.1' # 2.0.1 is the latest version to work on older ruby versions
