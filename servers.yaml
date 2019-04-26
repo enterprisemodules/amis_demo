@@ -3,15 +3,39 @@ ml-db112:
   public_ip:        '192.168.253.112'
   cpucount:         1
   type:             masterless
-  virtualboxorafix: enable
+  box:              enterprisemodules/centos-7.2-x86_64-puppet
+  virtualboxorafix: true
+  puppet_installer: puppet-enterprise-2016.5.1-el-7-x86_64/puppet-enterprise-installer
+  additional_hosts: |
+    192.168.253.10 master.example.com puppet master
+  virtualboxorafix: true
+  software_files:
+    - p13390677_112040_Linux-x86-64_1of7.zip
+    - p13390677_112040_Linux-x86-64_2of7.zip
+
 ml-db121:
   public_ip:        '192.168.253.121'
   cpucount:         1
   type:             masterless
-  virtualboxorafix: enable
+  box:              enterprisemodules/centos-7.2-x86_64-puppet
+  virtualboxorafix: true
+  puppet_installer: puppet-enterprise-2016.5.1-el-7-x86_64/puppet-enterprise-installer
+  additional_hosts: |
+    192.168.253.10 master.example.com puppet master
+  virtualboxorafix: true
+  software_files:
+    - linuxamd64_12102_database_1of2.zip
+    - linuxamd64_12102_database_2of2.zip
+
 ml-db122:
   public_ip:        '192.168.253.122'
   cpucount:         3
-  box:              enterprisemodules/amis_demo
-  type:             masterless
-  virtualboxorafix: enable
+  box:              enterprisemodules/centos-7.2-x86_64-puppet
+  virtualboxorafix: true
+  puppet_installer: puppet-enterprise-2016.5.1-el-7-x86_64/puppet-enterprise-installer
+  additional_hosts: |
+    192.168.253.10 master.example.com puppet master
+  virtualboxorafix: true
+  software_files:
+    - LINUX.X64_180000_db_home.zip
+    - p6880880_121010_Linux-x86-64.zip
